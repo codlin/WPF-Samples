@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanelDemo", "StackPane
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanelDemo", "DockPanelDemo\DockPanelDemo.csproj", "{56A87ACA-AC5A-482E-8302-620BBE697A1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockStackPanelCompare", "DockStackPanelCompare\DockStackPanelCompare.csproj", "{A3D28AC9-DFF0-4D04-8059-391EC27C5E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualizingStackPanelDemo", "VirtualizingStackPanelDemo\VirtualizingStackPanelDemo.csproj", "{CEECE106-7FAE-4A86-B5E9-0E76F7DC1BB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,14 @@ Global
 		{56A87ACA-AC5A-482E-8302-620BBE697A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56A87ACA-AC5A-482E-8302-620BBE697A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56A87ACA-AC5A-482E-8302-620BBE697A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D28AC9-DFF0-4D04-8059-391EC27C5E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D28AC9-DFF0-4D04-8059-391EC27C5E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D28AC9-DFF0-4D04-8059-391EC27C5E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D28AC9-DFF0-4D04-8059-391EC27C5E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEECE106-7FAE-4A86-B5E9-0E76F7DC1BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEECE106-7FAE-4A86-B5E9-0E76F7DC1BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEECE106-7FAE-4A86-B5E9-0E76F7DC1BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEECE106-7FAE-4A86-B5E9-0E76F7DC1BB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
