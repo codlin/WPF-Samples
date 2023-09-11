@@ -3,3 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:HelloWorld"
              StartupUri="MainWindow.xaml"/>
+
+<!--
+    参考：https://learn.microsoft.com/zh-cn/dotnet/desktop/wpf/advanced/xaml-namespaces-and-namespace-mapping-for-wpf-xaml?view=netframeworkdesktop-4.8&viewFallbackFrom=netdesktop-7.0
+    x:Class 配置 XAML 标记编译，以在标记和代码隐藏之间联接分部类。 代码部分类在一个独立的代码文件中采用公共语言规范 (CLS) 语言进行定义，而标记部分类通常由代码生成过程在 XAML 编译期间创建
+    xmlns 特性明确指示默认的 XAML 命名空间，映射 WPF 程序集。 在默认的 XAML 命名空间中，可以不使用前缀指定标记中的对象元素。
+    xmlns:x xaml的命名空间，该命名空间映射 XAML 语言命名空间。
+    xmlns:local 自定义前缀和自定义类型的命名空间。以 clr-namespace 开始。
+    StartupUri 指定启动窗口
+-->
